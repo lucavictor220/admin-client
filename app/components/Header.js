@@ -4,7 +4,7 @@ import AppBar from '@material-ui/core/AppBar';
 const Header = () => {
   return (
     <AppBar>
-      <span>Text</span>
+      <h1 style={{ marginLeft: 30, fontFamily: 'roboto', fontWeight: 400 }}>Dashboard</h1>
     </AppBar>
   );
 };
